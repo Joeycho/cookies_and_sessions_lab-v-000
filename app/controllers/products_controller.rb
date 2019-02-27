@@ -1,8 +1,6 @@
 class ProductsController < ApplicationController
   def index
-    if !self.cart.empty?
-      @carts = controller.cart
-    end
+    @cart = self.cart
   end
 
   def add
