@@ -1,2 +1,4 @@
 <h1>Products page</h1>
-<%= render 'form' %>
+<%@carts.each do |product| %>
+<p><%=product%></p>
+<%end%>
