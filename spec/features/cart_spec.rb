@@ -1,5 +1,4 @@
 require 'rails_helper'
-require 'rspec/rails'
 
 RSpec.describe "homepage", :type => :view do
   it "adds items to the cart when they're submitted via its form" do
