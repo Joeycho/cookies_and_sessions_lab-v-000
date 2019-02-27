@@ -7,6 +7,8 @@ class ApplicationController < ActionController::Base
     @cart = []
     if session[:cart] == nil
       session[:cart]=@cart
+    else
+      session[:cart]
     end
   end
 end
