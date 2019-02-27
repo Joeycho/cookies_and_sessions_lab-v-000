@@ -1,5 +1,3 @@
 <h1>Products page</h1>
-<%@cart.each do |product| %>
-<p><%=product%></p>
-<%end%>
+<%=display_product(@cart)%>
 <%= render 'form'%>
